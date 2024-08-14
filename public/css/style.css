@@ -1,0 +1,81 @@
+/* Reset básico de estilos */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+/* Container principal */
+.container {
+    width: 80%;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Títulos */
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Botões */
+a.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Botão de deletar */
+a.btn.btn-danger {
+    background-color: #dc3545;
+}
+
+a.btn.btn-danger:hover {
+    background-color: #c82333;
+}
+
+/* Tabela */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Mensagens de status */
+.message {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    border: 1px solid #c3e6cb;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
